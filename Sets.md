@@ -14,7 +14,18 @@
 - Basically, Set is implemented by HashSet, LinkedHashSet or TreeSet (sorted representation).
 - Set has various methods to add, remove clear, size, etc to enhance the usage of this interface
 
-```java
+## Functions
+- add(): This method is used to add one object to the collection at a time.
+- clear(): This method is used to remove all elements from the collection.
+- contains(): This method is used to verify whether a specified element is present in the collection or not.
+- isEmpty(): This method is used to check whether the collection is empty or not.
+- remove(): This is used to removes a specified object from the collection.
+- size(): This is used to know the size or the number of elements present in the collection.
+- iterator(): This is used to return an Iterator object, which may be used to retrieve an object from the collection.
+
+##Example
+###Source Code:
+```
 HashSet<String> set = new HashSet<String>();
  
         // Use add() method to add elements into the Set
@@ -28,5 +39,9 @@ HashSet<String> set = new HashSet<String>();
 
         // Displaying the HashSet
 System.out.println("HashSet:"+set+set.isEmpty());
-
 ```
+###Output
+```
+HashSet:[Welcome,Data,to,Structure,Capstone:]false
+```
+
