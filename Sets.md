@@ -23,8 +23,8 @@
 - size(): This is used to know the size or the number of elements present in the collection.
 - iterator(): This is used to return an Iterator object, which may be used to retrieve an object from the collection.
 
-##Example
-###Source Code:
+## Example
+### Source Code:
 ```
 HashSet<String> set = new HashSet<String>();
  
@@ -40,7 +40,7 @@ HashSet<String> set = new HashSet<String>();
         // Displaying the HashSet
 System.out.println("HashSet:"+set+set.isEmpty());
 ```
-###Output
+### Output:
 ```
 HashSet:[Welcome,Data,to,Structure,Capstone:]false
 ```
