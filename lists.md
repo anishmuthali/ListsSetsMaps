@@ -5,6 +5,11 @@
 - They have an index unlike sets and are ordered
 - Foundation for `ArrayLists` and `LinkedLists`
 
+### Linked Lists
+- List that is comprised of seperate objects as elements
+- Each object is comprised of the data and the reference to the next object
+- Last object references to null
+
 ### Lists Declaration
 With Generic type parameter:
 ```
@@ -74,3 +79,17 @@ List<Integer> listNumberTwo = new ArrayList<>(listNumberOne);
 - Extracting
   - `.subList(from, to)`
     - Allows view from "from" index to "to" index. Changes in actual list will reflect on sublist
+    
+# Practice
+  Transfer all elements of the ArrayList A to the LinkedList L
+  <br><br><br><br><br><br><br><br><br><br><br>
+  ```
+  size = A.size();
+  for (int counter = 0; counter < size; counter++)
+  {
+    L.add(A.getFirst);
+    A.remove(0);
+  }
+  ```
+  
+  
