@@ -15,10 +15,10 @@
 - Set has various methods to add, remove clear, size, etc to enhance the usage of this interface
 
 
-Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/anishmuthali/ListsSetsMaps/blob/master/Capture.PNG "Logo Title Text 2"
+[logo]: https://github.com/anishmuthali/ListsSetsMaps/blob/master/Capture.PNG "Class Hierarchy"
+
 ## Functions
 - add(): This method is used to add one object to the collection at a time.
 - clear(): This method is used to remove all elements from the collection.
