@@ -84,3 +84,8 @@ Depending on your use-case, you may choose between using a `Map` and a `HashMap`
 In essence, a `TreeMap` is a `Map` that keeps its keys sorted by whatever `Comparator` the object uses by default (ex: `int` would be sorted by value, `char` would be sorted by ascii value, `String` would be sorted using `compareTo`, etc.)
 
 TreeMaps can be used to implement red-black trees in Java. Red-black trees are balanced binary trees that are more efficient to search through. It can search in ![equation](http://www.sciweavers.org/upload/Tex2Img_1534873043/render.png) time.
+
+# Practice
+http://usaco.org/index.php?page=viewproblem2&cpid=667
+
+Please make an account and submit via the website. This is a longer problem, so take more time if you need it.
