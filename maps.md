@@ -34,16 +34,27 @@ The map is empty, and you are ready to add values now.
 __put(Object key, Object value)__: This method is used to insert an entry in this map.
 
 __putAll(Map map)__: This method is used to insert the specified map in this map.
+
 __remove(Object key)__: This method is used to delete an entry for the specified key.
+
 __get(Object key)__:This method is used to return the value for the specified key.
+
 __containsKey(Object key)__: This method is used to search the specified key from this map.
+
 __containsValue(Object value)__: This method is used to search the specified value from this map.
+
 __keySet()__: This method is used to return the Set containing all the keys.
+
 __entrySet()__: This method is used to return the Set containing all the keys and values.
+
 __values()__: Returns Collection of values.
+
 __isEmpty()__: Checks if map is empty.
+
 __size()__: Returns size of map.
+
 __clear()__: Removes all entries in the map.
+
 __equals(Object o)__: Returns true if o is a map with the same entries.
 
 ### Example
