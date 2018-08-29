@@ -91,5 +91,38 @@ List<Integer> listNumberTwo = new ArrayList<>(listNumberOne);
     A.remove(0);
   }
   ```
-  
+  <br><br><br>
+  What is the order of elements after executing this code
+  ```
+  LinkedList<Integer> l = new LinkedList<>();
+  l.add(5);
+  l.push(0);
+	l.add(8);
+	l.push(7);
+  ```
+  <br><br><br><br><br><br><br><br><br><br><br>
+  [7, 0, 5, 8]
+  <br><br><br>
+  Convert the ArrayList into a HashSet
+  ```
+  ArrayList<Integer> a = new ArrayList<>();
+  HashSet<Integer> h = new HashSet<>()
+  a.add(4);
+  a.add(4);
+  a.add(3);
+  a.add(2);
+  a.add(3);
+  a.add(19);
+  ```
+  <br><br><br><br><br><br><br><br><br><br><br>
+  ```
+  h.addAll(a);
+  ```
+  <br><br><br>
+  Remove all duplicate entries in an ArrayList
+  <br><br><br><br><br><br><br><br><br><br><br>
+  ```
+  h.addAll(a);
+  a.addAll(h);
+  ```
   
