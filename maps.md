@@ -31,7 +31,7 @@ In JSON format:
 The map is empty, and you are ready to add values now.
 
 ### Methods
-  __put(Object key, Object value)__: This method is used to insert an entry in this map.
+__put(Object key, Object value)__: This method is used to insert an entry in this map.
 
 __putAll(Map map)__: This method is used to insert the specified map in this map.
 
