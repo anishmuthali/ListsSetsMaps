@@ -99,7 +99,6 @@ In JSON format:
 }
 ```
 Now, your map is empty again.
-Remember,
 
 ### HashMaps
 Using a `HashMap` in Java is very similar to using a generic Map in Java. The main difference is instantiation:
