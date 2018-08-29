@@ -2,7 +2,7 @@
 
 ### Maps in Java
 
-`Map` in Java __map__ a key to a value. The following example is in JSON (JavaScript Object Notation) and provides a visual example of what maps look like:
+`Map` in Java __maps__ a key to a value. The following example is in JSON (JavaScript Object Notation) and provides a visual example of what maps look like:
 
 ```
 {
