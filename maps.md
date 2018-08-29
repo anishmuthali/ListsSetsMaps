@@ -32,6 +32,7 @@ The map is empty, and you are ready to add values now.
 
 ### Methods
 __put(Object key, Object value)__: This method is used to insert an entry in this map.
+
 __putAll(Map map)__: This method is used to insert the specified map in this map.
 __remove(Object key)__: This method is used to delete an entry for the specified key.
 __get(Object key)__:This method is used to return the value for the specified key.
