@@ -30,6 +30,22 @@ In JSON format:
 ```
 The map is empty, and you are ready to add values now.
 
+### Methods
+__put(Object key, Object value)__: This method is used to insert an entry in this map.
+__putAll(Map map)__: This method is used to insert the specified map in this map.
+__remove(Object key)__: This method is used to delete an entry for the specified key.
+__get(Object key)__:This method is used to return the value for the specified key.
+__containsKey(Object key)__: This method is used to search the specified key from this map.
+__containsValue(Object value)__: This method is used to search the specified value from this map.
+__keySet()__: This method is used to return the Set containing all the keys.
+__entrySet()__: This method is used to return the Set containing all the keys and values.
+__values()__: Returns Collection of values.
+__isEmpty()__: Checks if map is empty.
+__size()__: Returns size of map.
+__clear()__: Removes all entries in the map.
+__equals(Object o)__: Returns true if o is a map with the same entries.
+
+### Example
 You can add a key-value pair to maps like this:
 ```
 foodPrices.put("apples", 5);
@@ -78,14 +94,11 @@ Using a `HashMap` in Java is very similar to using a generic Map in Java. The ma
 ```
 HashMap<String, Integer> foodPrices = new HashMap<String, Integer>();
 ```
-Depending on your use-case, you may choose between using a `Map` and a `HashMap`. You would likely use a `Map` when you are creating a parent class, and children classes would need flexibility between a regular `HashMap` and a `TreeMap`. Otherwise, you would usually use a `HashMap`.
+Depending on your use-case, you may choose between using a `Map` and a `HashMap`. You would likely use a `Map` when you are creating a parent class, and children classes would need flexibility between a regular `HashMap` and a `TreeMap`. 
 
 ### TreeMaps
 In essence, a `TreeMap` is a `Map` that keeps its keys sorted by whatever `Comparator` the object uses by default (ex: `int` would be sorted by value, `char` would be sorted by ascii value, `String` would be sorted using `compareTo`, etc.)
 
-TreeMaps can be used to implement red-black trees in Java. Red-black trees are balanced binary trees that are more efficient to search through. It can search in ![equation](http://www.sciweavers.org/upload/Tex2Img_1534873043/render.png) time.
-
 # Practice
 http://usaco.org/index.php?page=viewproblem2&cpid=667
 
-Please make an account and submit via the website. This is a longer problem, so take more time if you need it.
