@@ -91,7 +91,7 @@ List<Integer> listNumberTwo = new ArrayList<>(listNumberOne);
     A.remove(0);
   }
   ```
-  <br><br><br>
+   <br><br><br>
   What is the order of elements after executing this code
   ```
   LinkedList<Integer> l = new LinkedList<>();
@@ -119,10 +119,12 @@ List<Integer> listNumberTwo = new ArrayList<>(listNumberOne);
   h.addAll(a);
   ```
   <br><br><br>
-  Remove all duplicate entries in an ArrayList
+  Remove all duplicate entries in an ArrayList (order does not need to be maintained)
   <br><br><br><br><br><br><br><br><br><br><br>
   ```
   h.addAll(a);
+  a.clear();
   a.addAll(h);
   ```
+  
   
